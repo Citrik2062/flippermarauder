@@ -1,0 +1,10 @@
+App(
+    appid="ESP32_Marauder",
+    name="ESP32_Marauder",
+    apptype=FlipperAppType.APP,
+    requires=["gui"],
+    stack_size=1 * 1024,
+    icon="A_GPIO_14",
+    order=50,
+    fap_libs=["assets"],
+)
